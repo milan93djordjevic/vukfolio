@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    height: 100vh;
+    display: inline-flex;
+    background-color: ##9F9F9F;
+}
+
+.left-side {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../assets/vuk-muskinja.png);
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    cursor: crosshair;
+}
+
+.right-side {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header, .biography, footer {
+    width: 20vw;
+}
+
+.biography {
+    padding-left: 1.5vw;
+}
+
+.biography h1 {
+    font-family: 'Reggae One', cursive;
+}
+
+#bio {
+    font-size: 1vw;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+}
+
+.logo {
+    width: 5vw;
+    padding: 2vw 0 0 1.5vw;
+}
+
+footer {
+    padding: 0 0 3vw 1.5vw;
+}
+
+#email {
+    margin-bottom: .5em;
+}
+
+footer div img {
+    margin-right: .8em;
+}
+
+#email-link, #phone-call-link {
+    color: black;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vw;
+}
+
+#socials img {
+    width: 2vw;
+}
+
+#email-icon {
+    width: 1vw;
+}
+
+#phone-icon {
+    width: 1vw;
+}
+
+#madeby {
+    width: .88vw;
+    padding-left: .25em;
+}
+
+#madeby-link {
+    cursor: crosshair;
+}
+
+#madeby-link:hover {
+    color: red;
+}
+
+footer p {
+    margin: .5em 0 .5em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: white;
+  }
+
+a section {
+    display: flex;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    height: 20vh;
+}
+
+.nav-direction {
+    margin: 0;
+    padding-top: 5%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-direction:hover {
+    color: black;
+    border-bottom: .5em solid black;
+}
+
+#ulje {
+    background-image: url(../assets/ulje/ulje-header.png)
+}
+
+#akrili {
+    background-image: url(../assets/akrili/akrili-header.png)
+}
+
+#crtezi {
+    background-image: url(../assets/crtezi/crtezi-header.png);
+}
+
+#pasteli {
+    background-image: url(../assets/pasteli/pasteli-header.png);
+}
+
+#kombinovana-tehnika {
+    background-image: url(../assets/kombinovana-tehnika/komb-teh-header.png);
+}
+
+@media screen and (min-width: 2000px) {
+    html {
+        margin-left: 10%;
+    }
+
+    body {
+        max-width: 1900px;
+    }
+} 
+
+@media screen and (max-width: 1365px) {
+    
+  } 
+  
+@media screen and (max-width: 1365px) {
+    
+} 
